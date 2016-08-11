@@ -17,12 +17,17 @@ if( have_rows('page_sections') ):
  	// loop through the rows of data
     while ( have_rows('page_sections') ) : the_row();
 
-$title_slug = sanitize_title(get_sub_field('title'));
+    $title_slug = sanitize_title(get_sub_field('title'));
 ?>
+
 <section class="page-section section-<?php echo $title_slug; ?>" id="<?php echo $title_slug; ?>">
+
     <?php // Content stuff here    ?>
+
 </section> <!-- end .page-section.section-<?php echo $title_slug; ?> -->
+
 <?php
+
     endwhile;
 
 endif;
