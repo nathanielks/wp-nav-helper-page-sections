@@ -20,6 +20,7 @@ if( have_rows('page_sections') ):
 $title_slug = sanitize_title(get_sub_field('title'));
 ?>
 <section class="page-section section-<?php echo $title_slug; ?>" id="<?php echo $title_slug; ?>">
+    <?php // Content stuff here    ?>
 </section> <!-- end .page-section.section-<?php echo $title_slug; ?> -->
 <?php
     endwhile;
