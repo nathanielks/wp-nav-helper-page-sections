@@ -1,0 +1,4 @@
+.add-page-section .menu-item-textbox, .add-page-section select {
+  float: right;
+  width: 160px;
+}

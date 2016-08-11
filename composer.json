@@ -1,0 +1,14 @@
+{
+    "name": "nathanielks/wp-nav-helper-page-sections",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathaniel Schweinberg",
+            "email": "nathaniel@fightthecurrent.org"
+        }
+    ]
+}
